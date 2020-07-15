@@ -1,0 +1,170 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Gal Wiernik
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.13.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Gal Wiernik
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.png', alt='')
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Gal 
+                        span.text-primary Wiernik
+                    .subheading.mb-5
+                        a(href='mailto:galwiernik@email.com') galwiernik@email.com
+                    p.lead.mb-5
+                        | Problem solver and programmer.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/gal-wiernik-344ba1117/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/galmw')
+                            i.fab.fa-github
+                        a.social-icon(href='https://www.facebook.com/gal.wiernik')
+                            i.fab.fa-facebook-f
+            hr.m-0
+            
+        
+            // Experience
+            section#experience.resume-section
+                .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Programmer
+                            .subheading.mb-3 IDF
+                        .flex-shrink-0
+                            span.text-primary September 2017 - Present
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Tel Aviv University
+                            .subheading.mb-3 Master of Science
+                            div Computer Science
+                        .flex-shrink-0
+                            span.text-primary October 2019 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Tel Aviv University
+                            .subheading.mb-3 Bachelor of Science
+                            div Computer Science & Mathematics, Summa cum Laude
+                            p GPA: 97.5
+                        .flex-shrink-0
+                            span.text-primary October 2015 - August 2017
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 The Hebrew University Secondary School
+                            div Mathematics, Physics, Computer Science
+                        .flex-shrink-0
+                            span.text-primary September 2009 - June 2015
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    //-
+                        ul.list-inline.dev-icons
+                            li.list-inline-item
+                                i.fab.fa-html5
+                            li.list-inline-item
+                                i.fab.fa-css3-alt
+                            li.list-inline-item
+                                i.fab.fa-js-square
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | 10 Years of Python experience
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | C programmer
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | I enjoy most of my time being outdoors. In the winter, I am an avid snowboarder.
+
+            hr.m-0
+
+            // Awards
+            section#awards.resume-section
+                .resume-section-content
+                    h2.mb-5 Awards & Certifications
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Final 2017 Award for Excellence in Mathematics
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
