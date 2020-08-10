@@ -37,16 +37,15 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Experience
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
+                        a.nav-link.js-scroll-trigger(href='#timeline') Timeline
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
+                    //-li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
-
+                    //-li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#contact') Contact
         // Page Content
         .container-fluid.p-0
 
@@ -59,67 +58,68 @@ html(lang='en')
                     .subheading.mb-5
                         a(href='mailto:galwiernik@gmail.com') galwiernik@gmail.com
                     p.lead.mb-5
-                        | Entrepreneur and Problem solver.
+                        | Entrepreneur and problem solver.
                     .social-icons
                         a.social-icon(href='https://www.linkedin.com/in/gal-wiernik-344ba1117/')
                             i.fab.fa-linkedin-in
                         a.social-icon(href='https://github.com/galmw')
                             i.fab.fa-github
                         a.social-icon(href='https://www.facebook.com/gal.wiernik')
-                            i.fab.fa-facebook-f
+                            i.fab.fa-facebook
             hr.m-0
             
+            // Timeline
+            section#timeline.resume-section
+                .resume-section-content
+                    h2.mb-5 Timeline
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            h3.mb-0 IDF
+                            .subheading.mb-1 Research & Development
+                            div 2018 - Present
+                        .flex-shrink-0
+                            span.text-primary 2017 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            .subheading.mb-1 Professional Training & Officer School
+                            div 2017 - 2018
         
-            // Experience
-            section#experience.resume-section
-                .resume-section-content
-                    h2.mb-5 Experience
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Programmer
-                            .subheading.mb-3 IDF
-                            div Computer Science
-                        .flex-shrink-0
-                            span.text-primary October 2017 - Present
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Teaching Assistant
-                            .subheading.mb-3 MEET - Middle East Entrepreneurs of Tommorow
-                            div Computer Science
-                        .flex-shrink-0
-                            span.text-primary Summer 2015
-            hr.m-0
-
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
                             h3.mb-0 Tel Aviv University
-                            .subheading.mb-3 Master of Science
-                            div Computer Science
+                            .subheading.mb-1 Master of Science
+                            div 2019 - Present
                         .flex-shrink-0
-                            span.text-primary October 2019 - Present
+                            span.text-primary 2015 - Present
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Tel Aviv University
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science & Mathematics, Summa cum Laude
-                            p GPA: 97.5
+                            .subheading.mb-1 Bachelor of Science
+                            div Computer Science & Mathematics, Completed in two years, Summa cum Laude.
+                            div 2015 - 2017
+                            p GPA: 98
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            h3.mb-0 MEET - Middle East Entrepreneurs of Tommorow
+                            .subheading.mb-1 Teaching Assistant
+                            div Summer 2015
                         .flex-shrink-0
-                            span.text-primary October 2015 - August 2017
+                            span.text-primary 2012 - 2015
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            .subheading.mb-1 Student
+                            div 2012 - 2014
 
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
                             h3.mb-0 The Hebrew University Secondary School
-                            div Mathematics, Physics, Computer Science
+                            div Programs: Mathematics, Physics, Computer Science
                         .flex-shrink-0
-                            span.text-primary September 2009 - June 2015
+                            span.text-primary 2009 - 2015
 
             hr.m-0
 
@@ -140,28 +140,45 @@ html(lang='en')
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | 10 Years of Python experience
+                            | Python
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | C programmer
-
-            hr.m-0
-
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
+                            | C
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Full-stack developer
                     p
-                        | I enjoy most of my time being outdoors. In the winter, I am an avid snowboarder.
-
+                    div Contact me for more specific information.
             hr.m-0
+            //-
+                // Interests
+                section#interests.resume-section
+                    .resume-section-content
+                        h2.mb-5 Interests
+                        p
+                            | I enjoy most of my time being outdoors. In the winter, I am an avid snowboarder.
+
+                hr.m-0
 
             // Awards
             section#awards.resume-section
                 .resume-section-content
                     h2.mb-5 Awards & Certifications
                     ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Certificate of Excellence - School of Mathematical Sciences, Tel Aviv University, Jun 2018
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Rector's Award for Excellence - Tel Aviv University, Feb 2018
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Dean's List - Tel Aviv University, Jan 2018
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
